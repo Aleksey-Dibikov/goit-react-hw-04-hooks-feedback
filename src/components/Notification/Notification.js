@@ -7,7 +7,9 @@ class Notification extends Component {
     return <p>{message}</p>;
   }
 }
+
 Notification.propTypes = {
   message: PropTypes.string,
 };
+
 export default Notification;
